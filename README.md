@@ -2,7 +2,7 @@
 <h3 align="center">CSE (AI/ML) | Autonomous Systems Engineer | ML & Systems Builder</h3>
 
 <p align="center">
-Mumbai, India • Team Ojas Racing (Autonomous Domain) • VIT Vellore
+Mumbai, India • Team Ojas Racing [Autonomous Software Developer & Operations Team Member (CR)] • VIT Vellore
 </p>
 
 ---
