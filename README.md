@@ -95,4 +95,5 @@ A dynamic priority-based loan optimization engine that:
 
 ## 📫 Connect
 
-LinkedIn: [Add Link]
+LinkedIn: https://www.linkedin.com/in/naval-agarwal-48b678205/
+
