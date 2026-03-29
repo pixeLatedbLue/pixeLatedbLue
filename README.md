@@ -1,9 +1,12 @@
 <!-- Header -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Naval%20Agarwal&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=CSE%20(AI%2FML)%20%E2%80%A2%20Autonomous%20Systems%20%E2%80%A2%20ML%20%26%20Systems%20Engineer&descAlignY=54&descSize=16" width="100%"/>
+<h1 align="center">Naval Agarwal</h1>
+<h3 align="center">CSE (AI/ML) &nbsp;·&nbsp; Autonomous Systems Engineer &nbsp;·&nbsp; ML & Systems Builder</h3>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=800&color=E63946&center=true&vCenter=true&width=620&lines=Building+systems+that+make+decisions+%E2%80%94+not+just+interfaces.;Autonomous+Software+%40+Team+Ojas+Racing+%7C+Formula+Student+EV;ROS2+%C2%B7+ML+%C2%B7+C%2B%2B+%C2%B7+Embedded+Systems+%C2%B7+XAI" alt="Typing SVG" />
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=800&color=E63946&center=true&vCenter=true&width=620&lines=Building+systems+that+make+decisions+%E2%80%94+not+just+interfaces.;Autonomous+Software+%40+Team+Ojas+Racing+%7C+Formula+Student+EV;ROS2+Jazzy+%C2%B7+ML+%C2%B7+C%2B%2B+%C2%B7+Jetson+Orin+Nano+%C2%B7+XAI" alt="Typing SVG" />
 
 <br/>
 
@@ -223,7 +226,7 @@ An embedded hardware system that restores independence for people with involunta
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=pixeLatedbLue&theme=tokyonight&hide_border=true&background=0D0D0D&ring=E63946&fire=FF9F1C&currStreakLabel=C8C5BF&sideLabels=C8C5BF&dates=888580" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pixeLatedbLue&theme=tokyo-night&bg_color=0D0D0D&color=C8C5BF&line=E63946&point=FF9F1C&area=true&hide_border=true" width="100%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pixeLatedbLue&bg_color=0D0D0D&color=C8C5BF&line=E63946&point=FF9F1C&area=true&hide_border=true" width="100%" />
 
 </div>
 
@@ -251,6 +254,8 @@ An embedded hardware system that restores independence for people with involunta
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf/bottom_header.svg" width="100%" />
+
+<sub><i>I build systems that make decisions — not just interfaces.</i></sub>
 
 </div>
