@@ -15,7 +15,7 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/TEAM OJAS RACING%20Member-888?style=flat-square&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/IEEE VIT%20Member-888?style=flat-square&labelColor=0D0D0D" />
 &nbsp;
 <img src="https://img.shields.io/badge/CodeChef-Gold%20Badge-FFD700?style=flat-square&logo=codechef&labelColor=0D0D0D" />
 &nbsp;
