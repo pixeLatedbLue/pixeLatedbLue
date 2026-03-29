@@ -1,15 +1,27 @@
-<h1 align="center">Naval Agarwal</h1>
+<!-- Header -->
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&pause=1000&color=E63946&center=true&vCenter=true&width=500&lines=CSE+(AI%2FML)+%40+VIT+Vellore;Autonomous+Systems+Engineer;ML+%26+Systems+Builder;Team+Ojas+Racing+%E2%80%94+Formula+Student+EV" alt="Typing SVG" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Naval%20Agarwal&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=CSE%20(AI%2FML)%20%E2%80%A2%20Autonomous%20Systems%20%E2%80%A2%20ML%20%26%20Systems%20Engineer&descAlignY=54&descSize=16" width="100%"/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/VIT_Vellore-CSE_(AI%2FML)-E63946?style=flat-square&labelColor=0D0D0D" />
-  <img src="https://img.shields.io/badge/Team_Ojas_Racing-Autonomous_Software-FF9F1C?style=flat-square&labelColor=0D0D0D" />
-  <img src="https://img.shields.io/badge/Mumbai-India-5BC0BE?style=flat-square&labelColor=0D0D0D" />
-  <img src="https://img.shields.io/badge/IEEE-VIT_Member-888?style=flat-square&labelColor=0D0D0D" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=3000&pause=800&color=E63946&center=true&vCenter=true&width=620&lines=Building+systems+that+make+decisions+%E2%80%94+not+just+interfaces.;Autonomous+Software+%40+Team+Ojas+Racing+%7C+Formula+Student+EV;ROS2+%C2%B7+ML+%C2%B7+C%2B%2B+%C2%B7+Embedded+Systems+%C2%B7+XAI" alt="Typing SVG" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/VIT%20Vellore-CSE%20AI%2FML-E63946?style=for-the-badge&labelColor=0D0D0D" />
+&nbsp;
+<img src="https://img.shields.io/badge/Team%20Ojas%20Racing-Formula%20Student%20EV-FF9F1C?style=for-the-badge&labelColor=0D0D0D" />
+&nbsp;
+<img src="https://img.shields.io/badge/Mumbai-India-5BC0BE?style=for-the-badge&labelColor=0D0D0D" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/IEEE-VIT%20Member-888?style=flat-square&labelColor=0D0D0D" />
+&nbsp;
+<img src="https://img.shields.io/badge/CodeChef-Gold%20Badge-FFD700?style=flat-square&logo=codechef&labelColor=0D0D0D" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20To-Collaborations-3FB950?style=flat-square&labelColor=0D0D0D" />
+
+</div>
 
 ---
 
@@ -17,135 +29,220 @@
 
 I build systems that **make decisions** — not just interfaces.
 
-I'm a second-year Computer Science (AI & ML) student at VIT Vellore, developing autonomous vehicle software at Team Ojas Racing (Formula Student EV). My work sits at the intersection of perception, real-time decision-making, and applied ML — where software has to be correct, not just functional.
+Second-year CSE (AI & ML) student at VIT Vellore, developing real-time autonomous vehicle software at **Team Ojas Racing** (Formula Student EV). My work sits at the intersection of perception pipelines, explainable ML, and low-level C++ — where software has to be *correct*, not just functional.
 
 ```
 Focus Areas
-├── Autonomous Systems & Robotics
-├── Machine Learning & Explainable AI
-├── System-Level C++ Engineering
-└── Intelligent Decision Models
+├── Autonomous Systems & Robotics      (ROS2, sensor fusion, perception)
+├── Machine Learning & Explainable AI  (Isolation Forest, SHAP, behavioral modeling)
+├── System-Level C++ Engineering       (real-time decision engines, optimization)
+└── Embedded Systems                   (Arduino, MPU6050, servo control)
 ```
 
 ---
 
 ## `> autonomous_engineering`
 
-**Team Ojas Racing — Formula Student EV**
-*Autonomous Software Developer & Operations Team Member (CR)*
+<div align="center">
 
-Building the software stack that makes the car think:
+### 🏎️ Team Ojas Racing — Formula Student EV
 
-| Domain | Work |
-|---|---|
-| Architecture | ROS2-based modular system design |
-| Perception | Sensor integration & multi-modal pipelines |
-| Decision | Real-time autonomous decision systems |
-| Reliability | Safety-critical environment engineering |
+**Autonomous Software Developer & Operations Team Member (CR)**
+
+</div>
+
+Building the software stack that makes the car think — and the team that makes it run:
+
+| Domain | Responsibility |
+|:---|:---|
+| 🧠 Architecture | ROS2-based modular autonomous system design |
+| 👁️ Perception | Sensor integration & multi-modal fusion pipelines |
+| ⚡ Decision | Real-time autonomous planning & control systems |
+| 🔒 Reliability | Safety-critical environment engineering |
+| 📋 Operations | Team coordination, race logistics & cross-role ops (CR) |
 
 ---
 
 ## `> selected_projects`
 
-### 🔐 Internal Data Leak Risk Detector
-> *ML-based behavioral prediction for insider threat evaluation*
+<details>
+<summary><b>🔐 Insider Threat Dashboard &nbsp;—&nbsp; Internal Data Leak Risk Detector</b> &nbsp;<code>Python · Streamlit · ML · XAI</code></summary>
 
-Evaluates the likelihood of internal data leaks before they happen using:
-- **Behavioral baseline modeling** — establishes individual activity norms
-- **Psychometric feature integration** — encodes personality-risk signals
-- **Multi-factor risk scoring** — aggregates signals into an actionable risk index
+<br/>
+
+> *A full-stack ML surveillance system for detecting insider threats before they happen*
+
+A production-grade **Streamlit dashboard + simulation suite** for insider-risk monitoring. Ingests daily user activity (USB interactions, email metadata, psychometric profiles) and flags anomalous behavior with explainable AI insights.
+
+**Core ML Pipeline:**
+- **Isolation Forest** trained monthly on cumulative user activity features
+- **SHAP TreeExplainer** provides per-user, per-feature risk attribution
+- Dynamic + hard-limit policy checks (USB insertions, sensitive file ratios, external email ratios)
+- Severity classification: `Critical → High → Elevated → Normal` via threshold quantiles
+
+**Data Model:**
+- Email signals: `total_emails`, `external_emails`, `attachments_sent`, `bcc_in_email`, `avg_email_size`
+- USB signals: `usb_insertions`, `files_accessed`, `sensitive_files_accessed`
+- **Big Five psychometrics** (`O`, `C`, `E`, `A`, `N`) — with `C` and `A` inverted for risk alignment
+
+**System Architecture:**
+```
+Daily CSV ingestion → Cumulative aggregation → Anomaly scoring
+       ↓                       ↓                      ↓
+ Simulation engine    Monthly retraining         SHAP logging
+       ↓                       ↓                      ↓
+  Streamlit dashboard ← Flagged users + risk explanations
+```
+
+**Advanced Features:**
+- Synthetic multi-month data generation (`full_generator.py`)
+- CLI orchestration engine for automated month-cycling & retraining
+- Web3 integration blueprint — wallet-auth, on-chain threshold governance, IPFS alert anchoring
+
+[![Repo](https://img.shields.io/badge/View%20Repo-Internal--Data--Leak--Risk--Detector-E63946?style=flat-square&logo=github&labelColor=0D0D0D)](https://github.com/pixeLatedbLue/Internal-Data-Leak-Risk-Detector)
+
+</details>
 
 ---
 
-### 🤖 Scrape-Krunch
-> *Real-time news intelligence pipeline with local LLM*
+<details>
+<summary><b>🤖 Scrape-Krunch &nbsp;—&nbsp; Real-Time News Intelligence Pipeline</b> &nbsp;<code>Python · Ollama · LLM</code></summary>
 
-End-to-end scraping and reasoning system:
-- Scrapes multi-domain news in real time
-- Feeds structured data into a locally hosted LLM via **Ollama**
-- Delivers contextual summarization and cross-domain analysis
+<br/>
+
+> *Multi-domain news scraper feeding a local LLM for contextual analysis*
+
+End-to-end pipeline that turns raw web noise into structured intelligence:
+- Scrapes multi-domain news sources in real time
+- Feeds structured, normalized data into a locally hosted LLM via **Ollama**
+- Delivers contextual summarization, cross-domain correlation, and on-demand analysis
+- Fully offline-capable — no external API dependencies
+
+[![Repo](https://img.shields.io/badge/View%20Repo-Scrape--Krunch-E63946?style=flat-square&logo=github&labelColor=0D0D0D)](https://github.com/pixeLatedbLue/Scrape-Krunch)
+
+</details>
 
 ---
 
-### 💰 Adaptive Loan Repayment Scheduler `(C++)`
-> *Dynamic priority-based loan optimization engine*
+<details>
+<summary><b>💰 Adaptive Loan Repayment Scheduler</b> &nbsp;<code>C++ · Optimization · Decision Systems</code></summary>
 
-A system that reasons over financial decisions:
-- Evaluates multiple loans simultaneously
-- Applies multi-factor decision logic (rate, tenure, balance)
-- Outputs the optimal repayment sequence dynamically
+<br/>
+
+> *Dynamic priority-based financial decision engine*
+
+A C++ system that acts as an automated financial advisor, reasoning over multiple loans simultaneously:
+- Multi-factor decision logic: interest rate, remaining tenure, outstanding balance
+- Dynamic repayment priority recomputed at each cycle
+- Outputs the globally optimal repayment sequence under budget constraints
+
+[![Repo](https://img.shields.io/badge/View%20Repo-Adaptive--Loan--Payment--Scheduler-E63946?style=flat-square&logo=github&labelColor=0D0D0D)](https://github.com/pixeLatedbLue/Adaptive-Loan-Payment-Scheduler)
+
+</details>
+
+---
+
+<details>
+<summary><b>🤲 Hand Tremor Stabilization Device</b> &nbsp;<code>C++ · Arduino · Embedded · Assistive Tech</code></summary>
+
+<br/>
+
+> *Low-cost real-time assistive device for Parkinson's & essential tremor patients*
+
+An embedded hardware system that restores independence for people with involuntary hand movements — stabilizing spoons and brushes in real time:
+
+| Component | Role |
+|:---|:---|
+| MPU6050 | 6-DOF motion sensing — detects & classifies tremor signatures |
+| Arduino Nano | Embedded control loop & signal processing |
+| Servo Motor | Real-time physical counterforce stabilization |
+| USB Power | Portable & accessible form factor |
+
+**Signal flow:** `Sensor reads → Tremor classification → Servo actuation` *(continuous loop)*
+
+[![Repo](https://img.shields.io/badge/View%20Repo-Tremor--Stabilization--Device-E63946?style=flat-square&logo=github&labelColor=0D0D0D)](https://github.com/pixeLatedbLue/Tremor-Stabilization-Device-)
+
+</details>
 
 ---
 
 ## `> tech_stack`
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js" />
-</p>
+<div align="center">
 
-**AI / ML**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" />
-</p>
+**Languages**
 
-**Systems & Autonomous**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,git,github" />
-</p>
+<img src="https://skillicons.dev/icons?i=python,cpp,c,js&theme=dark" />
 
-```
-Also working with:  ROS2 · Behavioral Modeling · Decision Systems · Ollama
-```
+**AI / ML & XAI**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" />
+
+`Isolation Forest` &nbsp;·&nbsp; `SHAP` &nbsp;·&nbsp; `Behavioral Modeling` &nbsp;·&nbsp; `Streamlit`
+
+**Autonomous & Embedded**
+
+<img src="https://skillicons.dev/icons?i=linux,git,github&theme=dark" />
+
+`ROS2` &nbsp;·&nbsp; `Arduino` &nbsp;·&nbsp; `MPU6050` &nbsp;·&nbsp; `Ollama` &nbsp;·&nbsp; `Decision Systems`
 
 **Web**
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=react,html,css" />
-</p>
+
+<img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
+
+</div>
 
 ---
 
 ## `> achievements`
 
-- 🥇 **Gold Badge Problem Solver** — CodeChef
-- 📡 **IEEE-VIT** — Active Member
-- 🏁 **Team Ojas Racing** — Formula Student EV, Autonomous Software & Ops
+```
+🥇  Gold Badge Problem Solver          CodeChef
+📡  Active Member                      IEEE-VIT
+🏁  Autonomous Software Developer      Team Ojas Racing — Formula Student EV
+📋  Operations Team Member (CR)        Team Ojas Racing — Formula Student EV
+```
 
 ---
 
 ## `> github_analytics`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NavalAgarwal&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=E63946&icon_color=FF9F1C&text_color=C8C5BF" />
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NavalAgarwal&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=E63946&text_color=C8C5BF" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NavalAgarwal&theme=tokyonight&hide_border=true&background=0D0D0D&ring=E63946&fire=FF9F1C&currStreakLabel=C8C5BF" />
-</p>
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=pixeLatedbLue&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=E63946&icon_color=FF9F1C&text_color=C8C5BF&rank_icon=github" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pixeLatedbLue&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D0D&title_color=E63946&text_color=C8C5BF" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pixeLatedbLue&theme=tokyonight&hide_border=true&background=0D0D0D&ring=E63946&fire=FF9F1C&currStreakLabel=C8C5BF&sideLabels=C8C5BF&dates=888580" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pixeLatedbLue&theme=tokyo-night&bg_color=0D0D0D&color=C8C5BF&line=E63946&point=FF9F1C&area=true&hide_border=true" width="100%" />
+
+</div>
 
 ---
 
 ## `> connect`
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/naval-agarwal-48b678205/">
-    <img src="https://img.shields.io/badge/LinkedIn-Naval_Agarwal-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=0D0D0D" />
-  </a>
-  &nbsp;
-  <a href="https://github.com/NavalAgarwal">
-    <img src="https://img.shields.io/badge/GitHub-NavalAgarwal-E63946?style=flat-square&logo=github&logoColor=white&labelColor=0D0D0D" />
-  </a>
-</p>
+<div align="center">
+
+<a href="https://www.linkedin.com/in/naval-agarwal-48b678205/">
+  <img src="https://img.shields.io/badge/LinkedIn-Naval%20Agarwal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D0D" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/pixeLatedbLue">
+  <img src="https://img.shields.io/badge/GitHub-pixeLatedbLue-E63946?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D" />
+</a>
+
+</div>
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NavalAgarwal&style=flat-square&color=E63946&label=profile+views" />
-</p>
+<div align="center">
 
-<p align="center">
-  <sub>I build systems that make decisions — not just interfaces.</sub>
-</p>
+<img src="https://komarev.com/ghpvc/?username=pixeLatedbLue&style=flat-square&color=E63946&label=profile+views" />
 
+<br/><br/>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling" width="100%"/>
+
+</div>
