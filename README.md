@@ -19,7 +19,8 @@
 &nbsp;
 <img src="https://img.shields.io/badge/CodeChef-Gold%20Badge-FFD700?style=flat-square&logo=codechef&labelColor=0D0D0D" />
 &nbsp;
-<img src="https://img.shields.io/badge/Open%20To-Collaborations-3FB950?style=flat-square&labelColor=0D0D0D" />
+<img src="https://img.shields.io/badge/Building-In%20Public-E63946?style=flat-square&labelColor=0D0D0D" />
+
 </div>
 
 ---
@@ -32,10 +33,10 @@ Second-year CSE (AI & ML) student at VIT Vellore, developing real-time autonomou
 
 ```
 Focus Areas
-├── Autonomous Systems & Robotics      (ROS2, sensor fusion, perception)
+├── Autonomous Systems & Robotics      (ROS2 Jazzy, sensor fusion, perception)
 ├── Machine Learning & Explainable AI  (Isolation Forest, SHAP, behavioral modeling)
 ├── System-Level C++ Engineering       (real-time decision engines, optimization)
-└── Embedded Systems                   (Arduino, MPU6050, servo control)
+└── Embedded Systems                   (Jetson Orin Nano, Arduino, RealSense, SBG IMU)
 ```
 
 ---
@@ -54,11 +55,23 @@ Building the software stack that makes the car think — and the team that makes
 
 | Domain | Responsibility |
 |:---|:---|
-| 🧠 Architecture | ROS2-based modular autonomous system design |
-| 👁️ Perception | Sensor integration & multi-modal fusion pipelines |
+| 🧠 Architecture | ROS2 Jazzy modular autonomous system design |
+| 👁️ Perception | Sensor fusion — Intel RealSense stereo depth + SBG Ellipse IMU |
 | ⚡ Decision | Real-time autonomous planning & control systems |
+| 💻 Compute | Nvidia Jetson Orin Nano — edge AI inference & onboard processing |
 | 🔒 Reliability | Safety-critical environment engineering |
 | 📋 Operations | Team coordination, race logistics & cross-role ops (CR) |
+
+**Hardware stack in use:**
+
+```
+Intel RealSense D435i  ──┐
+                          ├──▶  ROS2 Jazzy (perception nodes)  ──▶  Decision Stack
+SBG Ellipse N IMU      ──┘                                              │
+                                                                         ▼
+                                                            Nvidia Jetson Orin Nano
+                                                            (onboard edge compute)
+```
 
 ---
 
@@ -171,7 +184,7 @@ An embedded hardware system that restores independence for people with involunta
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,cpp,c,js,html,css,react&theme=dark" />
 
 **AI / ML & XAI**
 
@@ -183,11 +196,7 @@ An embedded hardware system that restores independence for people with involunta
 
 <img src="https://skillicons.dev/icons?i=linux,git,github&theme=dark" />
 
-`ROS2` &nbsp;·&nbsp; `Arduino` &nbsp;·&nbsp; `MPU6050` &nbsp;·&nbsp; `Ollama` &nbsp;·&nbsp; `Decision Systems`
-
-**Web**
-
-<img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
+`ROS2 Jazzy` &nbsp;·&nbsp; `Arduino` &nbsp;·&nbsp; `Nvidia Jetson Orin Nano` &nbsp;·&nbsp; `Intel RealSense D435i` &nbsp;·&nbsp; `SBG Ellipse IMU` &nbsp;·&nbsp; `Ollama` &nbsp;·&nbsp; `Decision Systems`
 
 </div>
 
